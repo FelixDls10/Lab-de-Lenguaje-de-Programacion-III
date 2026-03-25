@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú Dinámico</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <span class="nav-logo">FDMenu</span>
+    <ul id="nav-menu"></ul>
+    <button id="hamburger" onclick="toggleMobile()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div id="mobile-panel">
+    <div id="mob-list"></div>
+  </div>
+</nav>
+
+<main id="main-content">
+  <div id="status">
+    <i data-lucide="loader"></i> Cargando menú…
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

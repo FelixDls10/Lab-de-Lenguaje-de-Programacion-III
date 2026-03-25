@@ -1,0 +1,33 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "nombre": "Inicio",
+      "enlace": "#index.html",
+      "icono": "house",
+      "children": []
+    },
+    {
+      "id": 2,
+      "nombre": "GitHub",
+      "enlace": "https://github.com",
+      "icono": "github",
+      "children": [
+        {
+          "id": 21,
+          "nombre": "Repositorio",
+          "enlace": "https://github.com/FelixDls10/Lab-de-Lenguaje-de-Programacion-III",
+          "icono": "git-branch",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Figma",
+      "enlace": "https://figma.com",
+      "icono": "figma",
+      "children": []
+    }
+  ]
+}
